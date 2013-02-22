@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/view_title" />
+   
+    <LinearLayout
+        android:id="@+id/layout_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp" 
+        android:layout_alignParentBottom="true"
+        >
+
+        <SeekBar
+            android:id="@+id/sb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4" 
+            />
+
+        <com.zig.interview.util.MyTimer
+            android:id="@+id/mTimer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+    
+    
+    <ListView 
+        android:id="@+id/lv_file"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/layout_seekbar"
+        android:layout_below="@id/title"
+        />
+    <include layout="@layout/divider_wide"  android:layout_below="@id/title" android:layout_above="@id/lv_file"/>
+    <include layout="@layout/divider_wide"  android:layout_below="@id/lv_file" android:layout_above="@id/layout_seekbar"/>
+</RelativeLayout>

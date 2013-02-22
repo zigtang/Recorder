@@ -1,0 +1,54 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <style name="wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <!-- ChooseOperationActivity -->
+    <style name="btn_choose">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:textColor">@color/common_white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <!-- RecorderActivity -->
+    <style name="img_record">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:onClick">onClick</item>
+    </style>
+    
+    <!-- Title -->
+    <style name="btn_common" parent="wrap">
+        <item name="android:onClick">onClick</item>
+        <item name="android:padding" >7dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/common_white</item>
+        <item name="android:background">@drawable/selector_common</item>
+    </style>
+    
+    <!-- bottom -->
+    <style name="btn_bottom" >
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/common_white</item>
+        <item name="android:background">@drawable/selector_common</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    
+    <!--  RadioButton -->
+    <style name="radio_button_setting">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

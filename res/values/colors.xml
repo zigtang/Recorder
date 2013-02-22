@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_white">#ffffff</color>
+    <color name="common_gray">#cdcdcd</color>
+    <color name="common_yellow">#ffff99</color>
+    <color name="common_black">#000000</color>
+    <color name="common_green">#6ac45d</color>
+    <color name="common_light_gray">#fbefdd</color>
+    <color name="common_indigo">#288b9b</color>
+    
+    <color name="btn_normal">#7b90ad</color>
+    <color name="btn_pressed">#3366cc</color>
+    
+    <!-- Title -->
+    <color name="title_bg">#486a9a</color>
+    
+    
+    
+</resources>

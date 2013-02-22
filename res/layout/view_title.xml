@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/title_bg"
+    >
+    <Button 
+        android:id="@+id/btn_title_left"
+        style="@style/btn_common"
+        android:text="录音管理"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/selector_common"
+        />
+    <Button 
+        android:id="@+id/btn_title_right"
+        style="@style/btn_common"
+        android:text="录音设置"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/selector_common"
+        />
+    
+    <TextView 
+        style="@style/wrap"
+        android:layout_centerInParent="true"
+        android:text="阜博通"
+        android:textSize="18sp"
+        android:textColor="@color/common_white"
+        />
+
+</RelativeLayout>
